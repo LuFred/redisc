@@ -4,7 +4,7 @@ A Go redis client built on top of redigo.
 Installation
 ------------
 
-Install Redigo using the "go get" command:
+Install redisc using the "go get" command:
 
     go get github.com/lufred/redisc
     
