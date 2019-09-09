@@ -1,5 +1,5 @@
 # redisc
-A Go redis client built on top of redigo.
+A Go redis client built on top of [redigo](https://github.com/gomodule/redigo).
 
 Installation
 ------------
