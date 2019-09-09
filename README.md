@@ -11,13 +11,13 @@ Install redisc using the "go get" command:
 Example
 ------------
 ```
-    err:=redisc.RegisterDb("",DriverRedis,"127.0.0.1:6380","")
+    err:=redisc.RegisterDb("default",DriverRedis,"127.0.0.1:6380","")
     if err!=nil{
       t.Errorf("open err =%s",err.Error())
     }else{
       t.Log("open success")
     }
-    cache,err:=redisc.GetCache("default)
+    cache,err:=redisc.GetCache("default")
     if err!=nil{
       fmt.Error(err)
     }
